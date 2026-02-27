@@ -1,6 +1,6 @@
 # Explainable AI (XAI) in Practice: Book Chapter Implementations
 
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)
 [![DOI](https://img.shields.io/badge/DOI-Pending-b31b1b.svg)](https://doi.org/10.xxxx/xxxxx)
@@ -12,7 +12,7 @@
 
 ## 📌 Overview & Methodology
 
-As machine learning models—particularly in computer vision and complex data analysis become increasingly sophisticated, understanding their decision making processes is no longer optional; it is a necessity for trust, debugging, and transparency. This repository provides hands-on, Python-based implementations of various XAI techniques applied to state-of-the-art architectures.
+As machine learning models particularly in computer vision and complex data analysis become increasingly sophisticated, understanding their decision making processes is no longer optional; it is a necessity for trust, debugging, and transparency. This repository provides hands-on, Python-based implementations of various XAI techniques applied to state-of-the-art architectures.
 
 ### Experimental Workflow
 The experimental pipeline is designed to be modular and highly reproducible. Below is a high-level overview of our methodology:
@@ -31,4 +31,5 @@ graph TD;
     G --> K((Qualitative & Quantitative Analysis));
     H --> K;
     I --> K;
+
     J --> K;
