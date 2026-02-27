@@ -1,6 +1,6 @@
 # Explainable AI (XAI) in Practice: Book Chapter Implementations
 
-![Python Version]
+![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)
 [![DOI](https://img.shields.io/badge/DOI-Pending-b31b1b.svg)](https://doi.org/10.xxxx/xxxxx)
@@ -33,4 +33,5 @@ graph TD;
     I --> K;
 
     J --> K;
+
 
