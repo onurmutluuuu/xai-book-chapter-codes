@@ -23,7 +23,7 @@ gam = LinearGAM(s(0) + f(1)).fit(X, y)
 
 # 3. Visualization
 fig, axs = plt.subplots(1, 2, figsize=(12, 6))
-titles = ['Experience Effect', 'Education Effect']
+titles = ['Effect of Experience (Years)', 'Effect of Education (Years)']
 
 for i, ax in enumerate(axs):
     XX = gam.generate_X_grid(term=i)
@@ -37,8 +37,8 @@ for i, ax in enumerate(axs):
     ax.plot(XX[:, i], confi, c='r', ls='--', label='95% CI')
 
     ax.set_title(titles[i], weight='bold')
-    ax.set_xlabel('Value')
-    ax.set_ylabel('Contribution')
+    ax.set_xlabel('Variable Value')
+    ax.set_ylabel('Contribution to Salary ($)')
     ax.grid(True, ls=':', alpha=0.6)
 
     if i == 0: ax.legend()
